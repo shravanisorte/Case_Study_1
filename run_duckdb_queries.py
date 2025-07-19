@@ -20,7 +20,7 @@ con.execute(f"""
 CREATE VIEW parking_data AS
 SELECT * FROM parquet_scan('{parquet_file}');
 """)
-print("✅ View 'parking_data' created from Parquet.")
+print("View 'parking_data' created from Parquet.")
 
 # Run and optionally save result of each query
 for i, query in enumerate(queries, start=1):
