@@ -40,11 +40,11 @@ for i, query in enumerate(queries, start=1):
                 filename = f"query_{i}.csv"
                 output_path = os.path.join(output_folder, filename)
                 df.to_csv(output_path, index=False)
-                print(f"✅ Saved result to {output_path}")
+                print(f" Saved result to {output_path}")
             else:
-                print(f"ℹ️ Query {i} executed successfully, but returned no rows.")
+                print(f" Query {i} executed successfully, but returned no rows.")
         except duckdb.CatalogException:
             # Query executed, but doesn't return a result set
-            print(f"ℹ️ Query {i} ran successfully (no result to save).")
+            print(f" Query {i} ran successfully (no result to save).")
     except Exception as e:
-        print(f"❌ Error in Query {i}: {e}")
+        print(f" Error in Query {i}: {e}")
