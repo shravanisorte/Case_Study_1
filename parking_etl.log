@@ -1,0 +1,11 @@
+2025-07-19 11:06:12,525 INFO ETL started
+2025-07-19 11:06:12,532 INFO Loaded 13 parking events
+2025-07-19 11:06:12,532 INFO Loaded 7 vehicles
+2025-07-19 11:06:12,532 INFO Loaded 5 zones
+2025-07-19 11:06:12,536 INFO Validation complete
+2025-07-19 11:06:16,492 INFO Saved 10 valid merged records to C:\Users\shravani.raju\Desktop\Case_Study_WEEK1\airport_parking_dataset\final_output.parquet
+2025-07-19 16:53:43,154 INFO ETL started
+2025-07-19 16:53:43,174 INFO Loaded 13 parking events
+2025-07-19 16:53:43,175 INFO Loaded 7 vehicles
+2025-07-19 16:53:43,175 INFO Loaded 5 zones
+2025-07-19 16:53:43,189 INFO Validation complete
